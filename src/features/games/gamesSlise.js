@@ -1,5 +1,6 @@
 import axios from 'axios';
 import { createSlice } from '@reduxjs/toolkit';
+import { ApiKey } from '../../ApiKey';
 
 const initialState = {
   list: [],
@@ -73,7 +74,7 @@ export const fetchGames = (platform, category, sorting) => async (dispatch) => {
         'sort-by': sorting
       },
       headers: {
-        'X-RapidAPI-Key': '9451721467msh4fbb144255aeb60p177453jsn162e5facc2e8',
+        'X-RapidAPI-Key': ApiKey,
         'X-RapidAPI-Host': 'free-to-play-games-database.p.rapidapi.com',
       },
     };

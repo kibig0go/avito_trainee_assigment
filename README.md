@@ -5,6 +5,8 @@
 npm install
 npm start
 ```
+- Также для запуска приложения необходим apiKey, полученный на ресурсе https://rapidapi.com/digiwalls/api/free-to-play-games-database. 
+- Его необходимо внести в файл ApiKey.js
 ## Приложение запускается на localhost:3001
 
 ### Описание: 
